@@ -1,0 +1,24 @@
+div {
+    width: 30%;
+    height: 300px;
+    background-color:#ccc;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+div:hover {
+    background-color: red;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    background-color: green;
+}
+
+button:hover {
+    background-color: yellow;
+}
